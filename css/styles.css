@@ -1,0 +1,145 @@
+body
+{
+    font-family: 'Montserrat';
+}
+
+#title
+{
+    position: relative;
+
+    color: #fff;  background-color: #ff4c68;
+}
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+h1
+{
+    font-family: "Montserrat-think";  font-size: 3.5rem;  line-height: 1.5;
+}
+h2
+{
+    font-family: "montserrat-Bold";  font-size: 3rem;  line-height: 1.5;
+}
+h3
+{
+    font-family: "Montserrat-Bold";
+}
+p
+{
+    color: #8f8f8f;
+}
+/* Navigation Bar */
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand
+{
+    font-family: "Ubuntu";  font-size: 2rem;  font-weight: bold;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-family: "Montserrat-light";  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+/* title-image */
+.title-image
+{
+    position: absolute;  width: 23%;  transform: rotate(25deg); right: 25%;
+}
+#features
+{
+    position: relative;  padding: 7% 15%;  background-color: #fff;
+}
+.feature-box
+{
+    padding: 5%;  text-align: center;
+}
+
+.icon
+{
+    margin-bottom: 1rem;  color: #ef8172;
+}
+
+.icon:hover
+{
+    color: #ff4c68;
+}
+
+/* testimonials session */
+
+#testimonials
+{
+    text-align: center;  color: #fff;     background-color: #ef8172;
+}
+.testimonial-image
+{
+    width: 10%;  margin: 20px;     border-radius: 100%;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+.add{
+    background-color:#ef8172 ;
+}
+
+/* Press */
+#press
+{
+    padding-bottom: 3%;  text-align: center;  background-color: #ef8172;
+}
+.press-logo
+{
+    width: 15%;  margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing
+{
+    padding: 100px;  text-align: center;
+}
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+@media(max-width:1028px) {
+  #title{
+    text-align: center;
+
+  }
+  .title-image{
+    width:60%;
+    position:static;
+    transform: rotate(0);
+  }
+
+}
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  color: #fff;
+  font-family:"Montserrat-Black";
+  padding:7% 15%;
+}
+#footer{
+  text-align: center;
+}
+.fotter-icon{
+  padding:3%;
+  margin: 20px 10px;
+  color: #ef8172;
+}
